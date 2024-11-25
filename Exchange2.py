@@ -21,7 +21,7 @@ def exchange():
     else:
         mb.showwarning("Внимание!","Введите код валюты!")
 window = Tk()
-window.title("Курсы обмена валют")
+window.title("Курсы обмена валют.")
 window.geometry("360x180")
 
 Label(text="Введите код валюты").pack(padx = 10, pady = 10)
